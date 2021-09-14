@@ -20,6 +20,7 @@ Calc& Calc::sub(int value)
 }
 
 //inline 
+//헤더파일에 만들어 놓음 -> main에서 대체하여 들어가게 되는 것임 -> 적용이 빠름 
 Calc& Calc::mult(int value) 
 { 
 	m_value *= value; 
